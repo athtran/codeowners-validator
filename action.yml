@@ -49,7 +49,7 @@ inputs:
 
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'public.ecr.aws/y1x3f0a7/athtran/codeowners-validator:latest'
   env:
     ENVS_PREFIX: "INPUT"
 
